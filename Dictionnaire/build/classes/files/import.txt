@@ -1,0 +1,3 @@
+Livre, nom, book, j'ai lu un livre, i read a book 
+Friendship, nom, amitié, to do something out of friendship , faire quelque chose par amitié,f
+

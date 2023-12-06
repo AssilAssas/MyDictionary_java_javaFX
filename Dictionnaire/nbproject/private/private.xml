@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/Launcher.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/TranslatorUser.fxml</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/GUI/AllUsersController.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Entities/User.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/AdminController.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/LanguageChooserController.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/LanguageChooser.fxml</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/dictionnaire/Dictionnaire.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Services/FrDictionaryServices.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/A/MyDictionary.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/Admin.fxml</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/files/export.txt</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Entities/DictionnaireF.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/tools/MyConnection.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/Home.fxml</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Services/ImportService.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Entities/Traduction.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/SignInAdmin.fxml</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/SignIn.fxml</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/SignUpController.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/SignUp.fxml</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Entities/Admin.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Services/UserServices.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Services/ExportService.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/SignInAdminController.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Services/EnDictionaryServices.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/SignInController.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/Entities/DictionnaireA.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/HomeController.java</file>
+            <file>file:/C:/Users/ZOLDYCK/OneDrive/Documents/NetBeansProjects/Dictionnaire/src/mydictionary/GUI/TranslatorUserController.java</file>
+        </group>
+    </open-files>
+</project-private>

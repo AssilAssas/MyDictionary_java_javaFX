@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mydictionary.GUI.LanguageChooserController">
+   <children>
+      <VBox layoutX="152.0" layoutY="196.0" onMouseClicked="#GoFrensh" prefHeight="267.0" prefWidth="222.0">
+         <children>
+            <ImageView fx:id="fr" fitHeight="131.0" fitWidth="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@..\..\images\fr.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="259.0" text="Français" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB" size="17.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets right="20.0" />
+         </opaqueInsets>
+      </VBox>
+      <VBox layoutX="661.0" layoutY="196.0" onMouseClicked="#GoEnglish" prefHeight="236.0" prefWidth="159.0">
+         <children>
+            <ImageView fx:id="uk" fitHeight="135.0" fitWidth="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@..\..\images\uk.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="203.0" text="English" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB" size="17.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets left="20.0" />
+         </opaqueInsets>
+      </VBox>
+      <AnchorPane layoutX="-2.0" prefHeight="82.0" prefWidth="954.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="Name" layoutX="432.0" layoutY="16.0" prefHeight="51.0" prefWidth="120.0" text="My Dictionnary" textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="logo" fitHeight="51.0" fitWidth="52.0" layoutX="364.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@..\..\images\51BWcaYk0vL.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="620.0" layoutY="9.0" orientation="VERTICAL" prefHeight="62.0" prefWidth="0.0">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+            </Separator>
+            <Separator layoutX="292.0" layoutY="9.0" orientation="VERTICAL" prefHeight="62.0" prefWidth="0.0">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+            </Separator>
+         </children>
+      </AnchorPane>
+      <Button fx:id="back" layoutX="448.0" layoutY="521.0" mnemonicParsing="false" onAction="#Retour" prefHeight="34.0" prefWidth="103.0" style="-fx-background-color: black; -fx-background-radius: 20;" text="BACK" textFill="WHITE" />
+   </children>
+</AnchorPane>

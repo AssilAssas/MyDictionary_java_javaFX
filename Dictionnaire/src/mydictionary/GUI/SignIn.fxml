@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mydictionary.GUI.SignInController">
+   <children>
+      <TextField fx:id="username" layoutX="569.0" layoutY="221.0" prefHeight="54.0" prefWidth="302.0" promptText="Enter your username" style="-fx-background-radius: 20;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="569.0" layoutY="300.0" prefHeight="54.0" prefWidth="302.0" promptText="Enter your password" style="-fx-background-radius: 20;" />
+      <Label fx:id="PrintMassage" layoutX="232.0" layoutY="212.0" textFill="INDIGO" />
+      <ImageView fitHeight="600.0" fitWidth="464.0" pickOnBounds="true">
+       <image>
+             <Image url="@..\..\images\bg1.jpg " />         
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="142.0" layoutX="673.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@..\..\images\user.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="SignIN" layoutX="626.0" layoutY="378.0" mnemonicParsing="false" onAction="#SignIn" prefHeight="36.0" prefWidth="206.0" style="-fx-background-color: #45a0ef; -fx-background-radius: 20px;" text="SignIn" textFill="#fbf9f9">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="842.0" layoutY="550.0" mnemonicParsing="false" onAction="#Retour" prefHeight="36.0" prefWidth="143.0" style="-fx-background-color: white; -fx-border-color: #45a0ef; -fx-border-radius: 20px;" text="BACK" textFill="#45a0ef" />
+      <Label layoutX="157.0" layoutY="239.0" text="Welcome" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="141.0" layoutY="276.0" prefHeight="36.0" prefWidth="264.0" text="in your e-Dictionary" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="183.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@..\..\images\dict.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="signup" layoutX="648.0" layoutY="421.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="36.0" prefWidth="166.0" style="-fx-background-color: #45a0ef; -fx-background-radius: 20px;" text="Signup" textFill="#fbf9f9">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
